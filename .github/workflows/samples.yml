@@ -1,5 +1,10 @@
 name: Voice samples
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: Which script to run (samples.py or sounds.py)
+        default: samples.py
 permissions:
   contents: write
 concurrency:
@@ -25,7 +30,7 @@ jobs:
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
           pip install -q kokoro soundfile
       - name: Make the samples
-        run: python samples.py
+        run: python ${{ inputs.script }}
       - name: Save the samples
         run: |
           git config user.name "voice-bot"; git config user.email "voice-bot@users.noreply.github.com"
