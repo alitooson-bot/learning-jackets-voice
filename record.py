@@ -4,6 +4,8 @@ import json, os, subprocess, sys, tempfile, time
 import numpy as np, soundfile as sf
 from kokoro import KPipeline
 
+SPEED = 0.8  # the family chose 'Heart, slowest' on the samples page (2026-10-06)
+
 shard, shards = int(sys.argv[1]), int(sys.argv[2])
 items = json.load(open('phrases.json'))
 per = -(-len(items) // shards)
@@ -15,7 +17,7 @@ for it in mine:
     d = os.path.join('heart', it['id'][:2]); f = os.path.join(d, it['id'] + '.m4a')
     if os.path.exists(f): skipped += 1; continue
     try:
-        chunks = [np.asarray(a) for _, _, a in pipe(it['say'], voice='af_heart', speed=1.0)]
+        chunks = [np.asarray(a) for _, _, a in pipe(it['say'], voice='af_heart', speed=SPEED)]
         if not chunks: raise RuntimeError('no audio')
         sf.write(tmp, np.concatenate(chunks), 24000)
         os.makedirs(d, exist_ok=True)
