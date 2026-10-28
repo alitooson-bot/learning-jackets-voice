@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       script:
-        description: Which script to run (samples.py, sounds.py, short_i.py or chin.py)
+        description: Which script to run (samples.py, sounds.py, short_i.py, chin.py or pick_sounds.py)
         default: samples.py
 permissions:
   contents: write
