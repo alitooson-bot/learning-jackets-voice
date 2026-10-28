@@ -1,0 +1,82 @@
+[
+ {
+  "sound": "i",
+  "n": 1,
+  "phonemes": "ˈɪh",
+  "label": "Now: ih with a breath after",
+  "alone": "ˈɪh",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA ˈɪh?"
+ },
+ {
+  "sound": "i",
+  "n": 2,
+  "phonemes": "ɪ",
+  "label": "Plain ih",
+  "alone": "ɪ",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA ɪ?"
+ },
+ {
+  "sound": "i",
+  "n": 3,
+  "phonemes": "ˈɪ",
+  "label": "Plain ih, stressed",
+  "alone": "ˈɪ",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA ˈɪ?"
+ },
+ {
+  "sound": "i",
+  "n": 4,
+  "phonemes": "ˈɪʔ",
+  "label": "ih, cut off short",
+  "alone": "ˈɪt",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA ˈɪt?"
+ },
+ {
+  "sound": "i",
+  "n": 5,
+  "phonemes": "ˈɪˈɪ",
+  "label": "ih ih, said twice",
+  "alone": "ˈɪˈɪ",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA ˈɪˈɪ?"
+ },
+ {
+  "sound": "n",
+  "n": 1,
+  "phonemes": "nnn",
+  "label": "Now: long nnn",
+  "alone": "nnn",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA nnn?"
+ },
+ {
+  "sound": "n",
+  "n": 2,
+  "phonemes": "n",
+  "label": "Short n",
+  "alone": "n",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA n?"
+ },
+ {
+  "sound": "n",
+  "n": 3,
+  "phonemes": "nn",
+  "label": "n, a little longer",
+  "alone": "nn",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA nn?"
+ },
+ {
+  "sound": "n",
+  "n": 4,
+  "phonemes": "nə",
+  "label": "nuh",
+  "alone": "nə",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA nə?"
+ },
+ {
+  "sound": "n",
+  "n": 5,
+  "phonemes": "ˈɛn",
+  "label": "The letter name, en",
+  "alone": "ˈɛn",
+  "line": "wˌɪʧ lˈɛTəɹz sˈA ˈɛn?"
+ }
+]
