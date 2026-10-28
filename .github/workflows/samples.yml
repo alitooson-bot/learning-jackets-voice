@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       script:
-        description: Which script to run (samples.py, sounds.py or short_i.py)
+        description: Which script to run (samples.py, sounds.py, short_i.py, chin.py or pick_sounds.py)
         default: samples.py
 permissions:
   contents: write
@@ -28,7 +28,7 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
-          pip install -q kokoro soundfile
+          pip install -q kokoro soundfile piper-tts
       - name: Make the samples
         run: python ${{ inputs.script }}
       - name: Save the samples
