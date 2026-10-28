@@ -1,0 +1,74 @@
+[
+ {
+  "n": 1,
+  "text": "Let's sound it out!",
+  "before": "lˈɛts sˈaʊnd ɪɾ ˈaʊt!",
+  "after": "lˈɛts sˈWnd ɪt ˈWt!"
+ },
+ {
+  "n": 2,
+  "text": "Listen: chin.",
+  "before": "lˈɪsən: tʃˈɪn.",
+  "after": "lˈɪsᵊn: ʧˈɪn."
+ },
+ {
+  "n": 3,
+  "text": "chuh",
+  "before": "tʃˈʌ",
+  "after": "ʧˈʌ"
+ },
+ {
+  "n": 4,
+  "text": "ih",
+  "before": "ˈaɪ",
+  "after": "ˈɪh"
+ },
+ {
+  "n": 5,
+  "text": "nnn",
+  "before": "ˌɛnˌɛnˈɛn",
+  "after": "nnn"
+ },
+ {
+  "n": 6,
+  "text": "Which letters say ih?",
+  "before": "wˌɪtʃ lˈɛɾɚz sˈeɪ ˈaɪ?",
+  "after": "wˌɪʧ lˈɛTəɹz sˈA ˈɪh?"
+ },
+ {
+  "n": 7,
+  "text": "Yes! ih.",
+  "before": "jˈɛs! ˈaɪ.",
+  "after": "jˈɛs! ˈɪh."
+ },
+ {
+  "n": 8,
+  "text": "Which letters say nnn?",
+  "before": "wˌɪtʃ lˈɛɾɚz sˈeɪ ˌɛnˌɛnˈɛn?",
+  "after": "wˌɪʧ lˈɛTəɹz sˈA nnn?"
+ },
+ {
+  "n": 9,
+  "text": "Yes! nnn.",
+  "before": "jˈɛs! ˌɛnˌɛnˈɛn.",
+  "after": "jˈɛs! nnn."
+ },
+ {
+  "n": 10,
+  "text": "That one says eh.",
+  "before": "ðˈætwˌʌn sˈɛz ˈeɪ.",
+  "after": "ðˈæt wˈʌn sˈɛz ɛ."
+ },
+ {
+  "n": 11,
+  "text": "We want ih. ih.",
+  "before": "wiː wˈɔnt ˈaɪʲ ˈaɪ.",
+  "after": "wˌi wˈɑnt ˈɪh. ˈɪh."
+ },
+ {
+  "n": 12,
+  "text": "chin! chin is spelled c, h, i, n.",
+  "before": "tʃˈɪn! tʃˈɪn ɪz spˈɛld sˈiː, ˈeɪtʃ, ˈaɪ, ˈɛn.",
+  "after": "ʧˈɪn! ʧˈɪn ɪz spˈɛld sˈi, ˈAʧ, ˈI, ˈɛn"
+ }
+]
